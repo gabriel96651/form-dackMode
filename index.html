@@ -10,20 +10,80 @@
 </head>
 <body>
     <main id="container">
-        <form id="login form">
+        <form id="login-form">
             <div id="form-header">
                 <h1>Login</h1>
-                <i class="fa-solid fa-moon" id="mode-icon"></i>
+                <i class="fa-solid fa-moon" id="moon"></i>
             </div>
+
+                        <!--imagens social media-->
 
             <div id="social-media">
-<a href=""><img src="assets/enter forms/icons8-facebook-novo-48.png" alt=""></a>
-<a href=""><img src="assets/enter forms/icons8-google-logo-48.png" alt=""></a>
-<a href=""><img src="assets/enter forms/icons8-github-30.png" alt=""></a>
-
-
+<a href="" class="social">
+    <img src="assets/enter forms/icons8-facebook-novo-48.png" alt="img-facebbok">
+</a>
+<a href="" class="social">
+    <img src="assets/enter forms/icons8-google-logo-48.png" alt="img-google">
+</a>
+<a href="" class="social">
+    <img src="assets/enter forms/icons8-github-48.png" alt="img-github">
+</a>
             </div>
+
+                            <!--entradas-->
+
+            <div id="inputs">
+                
+                                <!--nome-->
+
+                    <div class="input-box">
+                        <label for="">name
+
+                            <div class="input-fild">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="name" name="name">
+                            </div>
+                        </label>
+
+                                <!--email-->
+
+                        <div class="input-box">
+                            <label for="">email
+
+                                <div class="input-fild">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                            </label>
+                            
+
+                                <!--password-->
+
+                        <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="password"> Password
+                        <div class="input-fild">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+                    
+                    <!-- FORGOT PASSWORD -->
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+
+            <button type="submit" id="btn">
+                Login
+            </button>
         </form>
     </main>
+    <script type="text/javascript" src="js/scripr.js"></script>
 </body>
 </html>
